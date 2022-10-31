@@ -1,50 +1,49 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
-img{
-    
-    display: block;
+
+li {
+    list-style: none;
 }
-ul li{
-    list-style:none;
+
+button {
+    cursor: pointer;
 }
-button{
-    cursor:pointer;
-}
-a,a:visited{
-    text-decoration:none;
-}
-a:hover{
-    text-decoration:none;
-}
-li>a{
+
+li>a {
     color: #3C3C3C;
 }
-.link{
+
+.header__nav-list {
     display: flex;
     flex-wrap: wrap;
     gap: 30px;
     text-transform: uppercase;
     font-weight: 600;
 }
-body{
+
+body {
     font-family: 'Lato';
     font-style: normal;
     color: #3C3C3C;
 }
+
 .wrapper {
     overflow: hidden;
 }
+
 /* =====header===== */
 .header {
     border-bottom: 1px solid #BDBDBD;
 }
+
 .container {
     max-width: 1170px;
     margin: 0 auto;
 }
+
 .header__conteiner {
     display: flex;
     justify-content: space-between;
@@ -52,14 +51,17 @@ body{
     text-transform: uppercase;
     flex-wrap: wrap;
 }
-.header__image {
+
+.header__logo {
     margin: 10px 0px;
 }
-.header__link {
+
+.header__nav-list {
     font-size: 20px;
     line-height: 24px;
 }
-.header__btn{
+
+.header__button {
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
@@ -67,21 +69,25 @@ body{
     text-transform: uppercase;
     background: #FFFFFF;
 }
-.header__btn:hover{
+
+.header__button:hover {
     background: #18B5DC;
     color: #FFFFFF;
 }
-a:hover{
+
+a:hover {
     color: #18B5DC;
 }
+
 /* =====end header===== */
 /* =====hero===== */
-.hero {
+.section1 {
     display: flex;
-    padding: 150px 0px;
+    padding: 160px 0px;
     background: #F6F6F6;
 }
-.hero__taitel {
+
+.section1__title {
     font-weight: 700;
     font-size: 34px;
     line-height: 41px;
@@ -89,7 +95,8 @@ a:hover{
     text-align: center;
     margin-bottom: 64px;
 }
-.hero__taitel::after{
+
+.section1__title::after {
     content: "";
     display: block;
     width: 45px;
@@ -98,7 +105,8 @@ a:hover{
     margin: 0 auto;
     margin-top: 20px;
 }
-.hero__text {
+
+.section1__text {
     max-width: 570px;
     margin: 0 auto;
     text-align: center;
@@ -107,47 +115,100 @@ a:hover{
     line-height: 24px;
     margin-bottom: 60px;
 }
+
 .card {
     display: flex;
     justify-content: space-between;
     gap: 30px;
     flex-wrap: wrap;
 }
-.card__social-networks {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 4px;
-    width: 270px;
+
+.card__img-1 {
     height: 270px;
-    background: #18B5DC;
+    width: 270px;
+    background-image: url(https://media.istockphoto.com/photos/young-adult-caucasian-man-takes-a-selfie-portrait-of-attractive-guy-picture-id1333969254?k=20&m=1333969254&s=170667a&w=0&h=gG2MgdKZp2AR5drwcFUCVQBx8GirmX30Qb1ng0GD1jU=);
+    background-position: center center;
+    background-color: #18B5DC;
+    cursor: pointer;
 }
+
+.card__img-2 {
+    height: 270px;
+    width: 270px;
+    background-image: url(../img/photo1.png);
+    background-color: #18B5DC;
+    cursor: pointer;
+}
+
+.card__img-3 {
+    height: 270px;
+    width: 270px;
+    background-image: url(../img/photo2.png);
+    background-color: #18B5DC;
+    cursor: pointer;
+}
+
+.card__img-4 {
+    height: 270px;
+    width: 270px;
+    background-image: url(../img/photo3.png);
+    background-color: #18B5DC;
+    cursor: pointer;
+}
+
+.card__img-1:hover {
+    background-image: none;
+}
+
+.card__img-2:hover {
+    background-image: none;
+}
+
+.card__img-3:hover {
+    background-image: none;
+}
+
+.card__img-4:hover {
+    background-image: none;
+}
+
 .card__name {
     margin-top: 20px;
     color: #282528;
 }
-.card__profession {
+
+.card__skills {
     font-weight: 300;
     font-size: 18px;
     line-height: 22px;
     color: #646464;
 }
+
 /* =====end hero===== */
 /* =====footer===== */
 .footer {
     display: flex;
     padding: 40px 0px;
 }
+
 .footer__container {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 28px;
 }
-.footer__link {
+
+.footer__nav-list {
     font-size: 18px;
     line-height: 22px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    text-transform: uppercase;
+    font-weight: 600;
 }
-.footer__social-networks {
+
+.footer__ikons {
     display: flex;
     gap: 10px;
+}
