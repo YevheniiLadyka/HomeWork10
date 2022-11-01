@@ -34,7 +34,7 @@ body {
     overflow: hidden;
 }
 
-/* =====header===== */
+
 .header {
     border-bottom: 1px solid #BDBDBD;
 }
@@ -79,8 +79,7 @@ a:hover {
     color: #18B5DC;
 }
 
-/* =====end header===== */
-/* =====hero===== */
+
 .section1 {
     display: flex;
     padding: 160px 0px;
@@ -184,8 +183,7 @@ a:hover {
     color: #646464;
 }
 
-/* =====end hero===== */
-/* =====footer===== */
+
 .footer {
     display: flex;
     padding: 40px 0px;
